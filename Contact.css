@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Jon-images/Upscaled_panda.png);
+    background-position: bottom right;
+    background-size: auto 50%;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+.Name{
+    color: #006442;
+    font-size: 3vw;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5vw;
+    border: 2px solid transparent;
+    padding: 0.5vw 1vw;
+}
+nav a:hover{
+    background: #FFFFFF;
+    border: 2px solid #AABB9A;
+    border-radius: 10px;
+    color: #AABB9A;
+}
+
+/*Contact Form*/
+.Contact{
+    width: 65%;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.Header{
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.Contact label{
+    display: block;
+    margin-top: 20px;
+}
+.Contact input{
+    width: 100%;
+    padding: 4px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid #006442;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+}
+.Contact textarea{
+    width: 100%;
+    padding: 4px;
+    border-radius: 6px;
+    border: 2px solid #006442;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.Contact textarea::placeholder{
+    font-style: italic;
+
+}
+.send-btn{
+    padding: 25px;
+    background: none;
+    border: none;
+    display: block;
+    margin-left: 41%;
+    transition: transform 0.3s ease;
+}
+.send-btn:hover{
+    transform: scale(1.15);
+}
